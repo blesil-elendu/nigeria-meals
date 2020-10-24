@@ -6,16 +6,18 @@ declare var $: any;
 @Component({
   selector: "app-root",
   template: `
-    <div class="container">
+    <div class="container-fluid">
       <app-navbar></app-navbar>
 
       <main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
         <router-outlet #o="outlet"></router-outlet>
       </main>
 
-      <!-- <app-footer></app-footer> -->
+      
       <app-loader-spinner></app-loader-spinner>
+      
     </div>
+    <!-- <app-footer></app-footer> -->
   `,
   styleUrls: ["./app.component.scss"],
   animations: [fadeAnimation],

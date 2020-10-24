@@ -4,6 +4,16 @@
 .navbar {
   top: 0;
   background: var(--navBackground);
+ 
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 20px;
+  padding: 14px 20px;
+}
+
+.navbar-brand{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+  font-size: 25px;
 }
 
 .color-container {

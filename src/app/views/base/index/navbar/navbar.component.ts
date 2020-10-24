@@ -13,7 +13,7 @@ declare var $: any;
   styleUrls: ["./navbar.component.scss"],
 })
 export class NavbarComponent implements OnInit {
-  angularVersion = VERSION;
+  
 
   colorPallet1 = [
     {

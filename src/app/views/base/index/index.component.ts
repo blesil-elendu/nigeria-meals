@@ -7,21 +7,22 @@ import { Component, OnInit } from "@angular/core";
 })
 export class IndexComponent implements OnInit {
   carouselList = [
-    {
-      bannerImg: "./assets/banner_img/img_1.jpg",
-      title: "Apple iPhone",
-      description: "Explore iPhone, the world's most powerful personal device",
-    },
+    
     {
       bannerImg: "./assets/banner_img/img_3.jpg",
-      title: "Never Settle - OnePlus",
+      title: "Experience The sweetness of - Bole",
       description:
-        " OnePlus creates beautifully designed products with premium build quality & brings the best technology to users around the world",
+        " Your local and natural sweetness served with pepper sause",
+    },
+    {
+      bannerImg: "./assets/banner_img/img_1.jpg",
+      title: "Our Top Soup Menus",
+      description: "Tasty local soups served in styles",
     },
     {
       bannerImg: "./assets/banner_img/img_4.jpg",
-      title: "Google Pixel",
-      description: "Discover a better way to capture, store, and see the world",
+      title: "Pepper Soup",
+      description: "We offer the best Meals at the best value",
     },
   ];
 

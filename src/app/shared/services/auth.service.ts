@@ -4,7 +4,6 @@ import { Router } from "@angular/router";
 import * as firebase from "firebase/app";
 import { BehaviorSubject, Observable } from "rxjs";
 import { filter, map } from "rxjs/operators";
-
 import { User } from "../models/user";
 import { UserService } from "./user.service";
 

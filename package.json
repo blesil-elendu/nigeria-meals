@@ -22,12 +22,16 @@
     }
   },
   "author": {
-    "name": "Mohammed Ismail",
-    "email": "ikismail7@gmail.com"
+    "name": "Blessing Elendu",
+    "email": "blesil86@gmail.com"
   },
   "contributors": [
     {
       "name": "Mohammed Ismail",
+      "email": "ikismail7@gmail.com"
+    },
+    {
+      "name": "Henry Ejemuta",
       "email": "ikismail7@gmail.com"
     }
   ],

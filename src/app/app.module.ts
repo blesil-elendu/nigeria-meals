@@ -1,4 +1,4 @@
-import { BrowserModule } from "@angular/platform-browser";
+import { BrowserModule, } from "@angular/platform-browser";
 import { NgModule, NO_ERRORS_SCHEMA, APP_INITIALIZER } from "@angular/core";
 
 // Firebase Config
@@ -47,5 +47,6 @@ export function setupTranslateFactory(service: TranslateService) {
   ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],
+
 })
 export class AppModule {}
