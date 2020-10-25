@@ -110,21 +110,31 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Home Page:
 
-![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/homepage(1).png "Home Page")
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home.png "Home Page")
 
-![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/homepage(3).png "Home Page")
+#### Home:
+
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home.png "Home Page")
 
 ### Products Page:
 
 ![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/product.png "Home Page")
 
-### Work Board Page:    
-
-![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/drag&drop.PNG "Home Page")
-
 ### SignIn/SignUp Page:    
 
 ![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/signIn.png "Home Page")
+
+### Add Product Page:    
+
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/addProduct.png "Home Page")
+
+### Product Details Page:    
+
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/productDetails.png "Home Page")
+
+### Cart Page:    
+
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/cart.png "Home Page")
 
 ## Development server
 
