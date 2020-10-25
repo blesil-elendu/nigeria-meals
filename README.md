@@ -110,7 +110,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Home Page:
 
-![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home.png "Home Page")
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home.PNG "Home Page")
 
 #### Home:
 
