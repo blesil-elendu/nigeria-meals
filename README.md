@@ -120,10 +120,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/product.png "Home Page")
 
-### Work Board Page:    
-
-![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/drag&drop.PNG "Home Page")
-
 ### SignIn/SignUp Page:    
 
 ![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/signIn.png "Home Page")
