@@ -1,11 +1,11 @@
-# Angular - Nigeria-Meals ShoppingCart + MDBootstrap + Firebase (Realtime Database) + i18n
+# Nigeria-Meals ShoppingCart + MDBootstrap + Firebase (Realtime Database)
 
 
-This project was developed for the google Africa Developers Scholarship. The aim of this project is to build a shopping cart restaurant for Nigeria-Meals  using Angular 10 + MDBootstrap + Firebase(Realtime Database)
+This project was developed for the google Africa Developers Scholarship. The aim of this project is to build a shopping cart restaurant for Nigeria-Meals  using Angular 10 + MDBootstrap + Firebase(Realtime Database) + i18n
 
 
 
-**Live Demo is hosted on Firebase** : [Angular-shopping-cart](https://nigeria-meals.web.app)
+**Live Demo is hosted on Firebase** : [Nigeria-Meals shopping-cart](https://nigeria-meals.web.app)
  
  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
