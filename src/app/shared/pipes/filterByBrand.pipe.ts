@@ -8,7 +8,7 @@ export class FilterByBrandPipe implements PipeTransform {
     if (select !== "All") {
       return select
         ? items.filter(
-            (item: { productSeller: any }) => item.productSeller === select
+            (item: { productCategory: any }) => item.productCategory === select
           )
         : items;
     } else {
