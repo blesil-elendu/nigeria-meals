@@ -1,11 +1,11 @@
-# Angular - Nigeria-Meals ShoppingCart + MDBootstrap + Firebase (Realtime Database) + i18n
+# Nigeria-Meals ShoppingCart + MDBootstrap + Firebase (Realtime Database)
 
 
-This project was developed for the google Africa Developers Scholarship. The aim of this project is to build a shopping cart restaurant for Nigeria-Meals  using Angular 10 + MDBootstrap + Firebase(Realtime Database)
+This project was developed for the google Africa Developers Scholarship. The aim of this project is to build a shopping cart restaurant for Nigeria-Meals  using Angular 10 + MDBootstrap + Firebase(Realtime Database) + i18n
 
 
 
-**Live Demo is hosted on Firebase** : [Angular-shopping-cart](https://nigeria-meals.web.app)
+**Live Demo is hosted on Firebase** : [Nigeria-Meals shopping-cart](https://nigeria-meals.web.app)
  
  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
@@ -110,11 +110,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Home Page:
 
-![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home.png "Home Page")
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home.PNG "Home Page")
 
-#### Home:
-
-![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home.png "Home Page")
+![Alt text](https://github.com/blesil-elendu/nigeria-meals/blob/master/screenshots/home2.png "Home Page")
 
 ### Products Page:
 
@@ -166,4 +164,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## License
 
-This project is licensed under the MIT License - see the [MIT license](https://github.com/ikismail/Angular-ShoppingCart/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [MIT license](https://github.com/blesil-elendu/nigeria-meals/blob/master/LICENSE) file for details
+
+## Reference
+inspiration gotten from - [ikismail repo](https://github.com/ikismail/Angular-ShoppingCart)
