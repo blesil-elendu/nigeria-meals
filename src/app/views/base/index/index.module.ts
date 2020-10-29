@@ -14,6 +14,7 @@ import { LoginComponent } from "./login/login.component";
 import { FooterComponent } from "./footer/footer.component";
 import { NavbarComponent } from "./navbar/navbar.component";
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -26,6 +27,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
     NavbarComponent,
     LoginComponent,
     FooterComponent,
+   
   ],
   schemas: [NO_ERRORS_SCHEMA],
   exports: [NavbarComponent, FooterComponent],

@@ -15,6 +15,7 @@ import { UserModule } from "./views/pages/user/user.module";
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { environment } from "../environments/environment";
 
+
 /* to load and set en.json as the default application language */
 export function setupTranslateFactory(service: TranslateService) {
   return () => service.use("en");
