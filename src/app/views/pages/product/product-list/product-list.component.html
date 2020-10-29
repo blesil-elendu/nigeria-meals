@@ -94,7 +94,7 @@
                     <p class="card-text">{{ product.productDescription }}</p>
                     <!--Card footer-->
                     <div class="card-footer">
-                      <span class="left"> $ {{ product.productPrice }}</span>
+                      <span class="left">&#x20a6;{{ product.productPrice | currency:'': '' }}</span>
                       <span class="right">
                         <a
                           placement="top"

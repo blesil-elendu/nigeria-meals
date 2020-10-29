@@ -18,7 +18,7 @@
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6">
           <address>
-            <strong>ikismail</strong>
+            <strong>Kamsy</strong>
             <br />
             Tamil Nadu, IN 600094
             <br />
@@ -55,8 +55,8 @@
                 </h6>
               </td>
               <td></td>
-              <td class="col-md-1 text-center">₹ {{ product.productPrice }}</td>
-              <td class="col-md-1 text-center">₹ {{ product.productPrice }}</td>
+              <td class="col-md-1 text-center">&#x20a6; {{ product.productPrice | currency:'': ''  }}</td>
+              <td class="col-md-1 text-center">&#x20a6; {{ product.productPrice | currency:'': '' }}</td>
             </tr>
             <tr>
               <td></td>
@@ -71,10 +71,10 @@
               </td>
               <td class="text-center">
                 <p>
-                  <strong>{{ totalPrice }}</strong>
+                  <strong>&#x20a6;{{ totalPrice | currency:'': ''  }}</strong>
                 </p>
                 <p>
-                  <strong>₹ {{ tax }}</strong>
+                  <strong>&#x20a6;{{ tax | currency:'': '' }}</strong>
                 </p>
               </td>
             </tr>
@@ -86,7 +86,7 @@
               </td>
               <td class="text-center text-danger">
                 <h4>
-                  <strong>₹ {{ totalPrice + tax }}</strong>
+                  <strong>&#x20a6; {{ totalPrice + tax | currency:'': ''}}</strong>
                 </h4>
               </td>
             </tr>

@@ -11,6 +11,7 @@ declare var $: any;
 
       <main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
         <router-outlet #o="outlet"></router-outlet>
+        
       </main>
 
       

@@ -2,9 +2,9 @@
 <div class="container" *ngIf="cartProducts.length > 0">
   <div class="row">
     <!-- List of Products -->
-    <div class="col-8">
+    <div class="col-md-8">
       <div class="row">
-        <div class="col-4" *ngFor="let product of cartProducts">
+        <div class="col-sm-4 mb-2" *ngFor="let product of cartProducts">
           <div class="item">
             <div class="mb-r">
               <!--Card-->
@@ -49,7 +49,7 @@
 
                   <!--Card footer-->
                   <div class="card-footer">
-                    <span class="left">₹ {{ product.productPrice }}</span>
+                    <span class="left">&#x20a6; {{ product.productPrice | currency:'': '' }}</span>
                     <span class="right">
                       <a
                         placement="top"
@@ -78,7 +78,7 @@
         </div>
       </div>
     </div>
-    <div class="col-4">
+    <div class="col-md-4">
       <app-cart-calculator [products]="cartProducts"></app-cart-calculator>
     </div>
   </div>
