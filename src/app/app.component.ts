@@ -18,7 +18,7 @@ declare var $: any;
       <app-loader-spinner></app-loader-spinner>
       
     </div>
-    <!-- <app-footer></app-footer> -->
+    <app-footer></app-footer>
   `,
   styleUrls: ["./app.component.scss"],
   animations: [fadeAnimation],

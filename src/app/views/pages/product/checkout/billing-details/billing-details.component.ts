@@ -32,14 +32,13 @@ export class BillingDetailsComponent implements OnInit {
 
     this.userDetail = new UserDetail();
     this.products = productService.getLocalCartProducts();
-    authService.user$.pipe(
-      map((user) => {
-        this.userDetails = user;
-      })
-    );
+    authService.user$.subscribe((user) => {
+      this.userDetails = user;
+    });
+    console.log(this.userDetails);
   }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   updateUserDetails(form: NgForm) {
     let totalPrice = 0;

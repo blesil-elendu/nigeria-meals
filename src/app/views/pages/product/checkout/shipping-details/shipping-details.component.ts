@@ -1,7 +1,8 @@
-import { Product } from "../../../../../shared/models/product";
+//eeimport { Product } from "../../../../../shared/models/product";
 import { ShippingService } from "../../../../../shared/services/shipping.service";
 import { UserDetail, User } from "../../../../../shared/models/user";
 import { AuthService } from "../../../../../shared/services/auth.service";
+import { Product } from "../../../../../shared/models/product";
 import { Component, OnInit } from "@angular/core";
 import { NgForm } from "@angular/forms";
 import { Router } from "@angular/router";
@@ -33,15 +34,12 @@ export class ShippingDetailsComponent implements OnInit {
 
     this.userDetail = new UserDetail();
     this.products = productService.getLocalCartProducts();
-    authService.user$.pipe(
-      map((user) => {
-        console.log(user);
-        this.userDetails = user;
-      })
-    );
+    authService.user$.subscribe((user) => {
+      this.userDetails = user;
+    });
   }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   updateUserDetails(form: NgForm) {
     const products = [];

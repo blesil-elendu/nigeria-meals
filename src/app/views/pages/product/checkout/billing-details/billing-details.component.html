@@ -56,6 +56,23 @@
       </div>
 
       <div class="mb-3">
+        <label for="phone"
+          >Phone Number
+        </label>
+        <input
+          type="tel"
+          class="form-control"
+          id="phone"
+          name="phone"
+          required
+        />
+        <!-- [(ngModel)]="userDetails.phone" -->
+        <div class="invalid-feedback">
+          Please enter a valid phone number.
+        </div>
+      </div>
+
+      <div class="mb-3">
         <label for="address">Address</label>
         <input
           type="text"
@@ -97,7 +114,7 @@
             name="country"
           >
             <option value="">Choose...</option>
-            <option>United States</option>
+            <option>Nigeria</option>
           </select>
           <div class="invalid-feedback">
             Please select a valid country.
@@ -113,7 +130,7 @@
             required
           >
             <option value="">Choose...</option>
-            <option>California</option>
+            <option>Rivers State</option>
           </select>
           <div class="invalid-feedback">
             Please provide a valid state.

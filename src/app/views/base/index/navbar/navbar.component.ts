@@ -55,6 +55,7 @@ export class NavbarComponent implements OnInit {
     public translate: TranslateService,
     private themeService: ThemeService
   ) {
+    // console.log(authService.user$);
     // console.log(translate.data);
   }
 
