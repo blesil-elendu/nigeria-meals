@@ -70,7 +70,7 @@ export class ResultComponent implements OnInit {
   }
 
   payWithMonnify() {
-    // @ts-ignore
+    /*// @ts-ignore*/
     MonnifySDK.initialize({
         amount: this.totalPrice,
         currency: "NGN",
