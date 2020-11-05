@@ -35,6 +35,14 @@
       "email": "ikismail7@gmail.com"
     }
   ],
+  "budgets": [
+    {
+      "type":
+      "initial",
+      "maximumWarning": "4mb",
+      "maximumError": "5mb"
+    }
+  ],
   "dependencies": {
     "@angular/animations": "^10.0.2",
     "@angular/cdk": "^10.0.1",
